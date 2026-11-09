@@ -35,7 +35,7 @@ public class TokoBuku {
         System.out.println("-----------------------------------------");
         System.out.printf("Total bayar   : Rp%,d\n\n", hitungTotal(keranjang)).replace(',', '.');
 
-        // Output Bagian Link Unduh
+
         System.out.println("============== LINK UNDUH ===============");
         for (BisaDiunduh item : unduhan) {
             System.out.println(item.linkUnduh());
